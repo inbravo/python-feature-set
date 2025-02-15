@@ -1,0 +1,12 @@
+https://github.com/ryanchynoweth44/DatabricksContent
+https://github.com/dbsys21/databricks-lakehouse
+https://github.com/justinbreese/databricks-gems
+https://github.com/databricks/notebook-best-practices
+https://github.com/datakickstart/datakickstart_dabs
+https://github.com/databricks-demos/dbconnect-examples
+https://github.com/flaviomalavazi/databricks_helpers
+https://github.com/cguegi/azure-databricks-airflow-example
+https://github.com/rafaelvp-db/databricks-end-to-end-streaming
+https://github.com/pietheinstrengholt/dbt-databricks-adventureworks
+https://github.com/renardeinside/pyspark-logging-examples
+https://github.com/richchad/data_quality_databricks
