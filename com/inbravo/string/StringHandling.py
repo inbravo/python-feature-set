@@ -3,11 +3,10 @@
 # inbravo@outlook.com
 
 class StringHandling:
-
-    main()
     
-    # A class variable
+    # A class variable. quote or double quote, both are acceptable for string
     testString = "i am a string"
+    testString = 'i am also a string'
 
     def __str__(self):
         return f"{self.testString}"
@@ -23,3 +22,5 @@ class StringHandling:
         print("i am in the main method")
         st = StringHandling()
         st.printString("passed variable")
+
+    main()
