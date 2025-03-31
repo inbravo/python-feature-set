@@ -80,3 +80,4 @@ class DataTypes:
     print(type(b))
     print(type(c)) 
     print(type(d)) 
+    
