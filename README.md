@@ -1,4 +1,10 @@
 # python-feature-set
  
  #### Basic language features
--  [Python Data Types](com/inbravo/core/DataTypes.py)
+-  [Hello world](com/inbravo/core/HelloWorld.py) 
+-  [Hello world using Jupitor Notebook](com/inbravo/core/HelloWorld.ipynb) 
+-  [Data types](com/inbravo/core/DataTypes.py)
+-  [Variable types](com/inbravo/core/VariableTest.py)
+-  [Why intendation matters in Python](com/inbravo/core/IntendationTest.py)
+-  [Main function](com/inbravo/core/MainFunctionTest.py)
+-  [String handling](com/inbravo/core/StringHandling.py)

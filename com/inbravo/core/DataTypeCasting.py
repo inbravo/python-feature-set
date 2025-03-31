@@ -19,6 +19,7 @@ class DataTypes:
     print(isinstance(y, float))
     print(isinstance(z, str))
 
+    # 
     x = int(x)      # x will be 1
     y = int(y)      # y will be 2ß
     z = int(z)      # z will be 3
