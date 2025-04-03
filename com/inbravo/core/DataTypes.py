@@ -1,3 +1,5 @@
+"""Class to experiment the different data types in Python"""
+
 
 class DataTypes:
     # Text Type: 	str
@@ -8,28 +10,29 @@ class DataTypes:
     # Boolean Type: 	bool
     # Binary Types: 	bytes, bytearray, memoryview
     # None Type: 	NoneType
-
-    x = str("Hello World") 
+    x = str("Hello World")
     print(x)
 
     x = int(20)
-    print(x)	
+    print(x)
 
     x = float(20.5)
     print(x)
 
-    x = complex(1j) # complex is made of a real and an imginary number
-    print(x)	
+    x = complex(1j)  # complex is made of a real and an imginary number
+    print(x)
 
     real = 10
     imaginary = 7
     complex_number = complex(real, imaginary)
     print("Complex number formed: ", complex_number)
 
-    x = list(("apple", "banana", "cherry")) # a list can be dynamic, not fixed length like tuple
+    x = list(
+        ("apple", "banana", "cherry")
+    )  # a list can be dynamic, not fixed length like tuple
     print(x)
 
-    x = tuple(("apple", "banana", "cherry")) # a typle is always fixed length
+    x = tuple(("apple", "banana", "cherry"))  # a typle is always fixed length
     print("Tuple: ", x)
 
     x = range(6)
@@ -56,19 +59,19 @@ class DataTypes:
     x = memoryview(bytes(5))
     print("Memoryview of a byte: ", x)
 
-    x = 1    # int
+    x = 1  # int
     y = 2.8  # float
 
-    #convert from int to float:
+    # convert from int to float:
     a = float(x)
 
-    #convert from float to int:
+    # convert from float to int:
     b = int(y)
 
-    #convert from int to complex:
+    # convert from int to complex:
     c = complex(x)
 
-    #convert from float to complex:
+    # convert from float to complex:
     d = complex(y)
 
     print(a)
@@ -78,6 +81,5 @@ class DataTypes:
 
     print(type(a))
     print(type(b))
-    print(type(c)) 
-    print(type(d)) 
-    
+    print(type(c))
+    print(type(d))

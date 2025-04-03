@@ -13,8 +13,8 @@ class TupleTest:
     print(type(thistuple))
 
     # NOT a tuple
-    thistuple = ("apple")
-    print(type(thistuple)) 
+    thistuple = "apple"
+    print(type(thistuple))
 
     # String, int and boolean data types:
     tuple1 = ("apple", "banana", "cherry")
@@ -25,7 +25,7 @@ class TupleTest:
     tuple1 = ("abc", 34, True, 40, "male")
 
     # Using the tuple() method/constructor to make a tuple:
-    thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+    thistuple = tuple(("apple", "banana", "cherry"))  # note the double round-brackets
     print(thistuple)
 
     # Print the second item in the tuple
@@ -45,7 +45,7 @@ class TupleTest:
 
     # Check if "apple" is present in the tuple:
     if "apple" in thistuple:
-        print("Yes, 'apple' is in the fruits tuple") 
+        print("Yes, 'apple' is in the fruits tuple")
 
     # Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
     # But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
@@ -93,18 +93,18 @@ class TupleTest:
     # Iterating on a tuple
     for x in fruits:
         print(x)
-    
+
     # Looping on a tuple
     for i in range(len(fruits)):
-        print(fruits[i]) 
+        print(fruits[i])
 
     # Join two tuples
-    tuple1 = ("a", "b" , "c")
+    tuple1 = ("a", "b", "c")
     tuple2 = (1, 2, 3)
     tuple3 = tuple1 + tuple2
-    print(tuple3) 
+    print(tuple3)
 
     # Multiply the tuple by double (2) or triple(3) etc.
     fruits = ("apple", "banana", "cherry")
     mytuple = fruits * 2
-    print(mytuple) 
+    print(mytuple)

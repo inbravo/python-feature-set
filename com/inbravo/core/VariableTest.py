@@ -1,6 +1,6 @@
 # Python has no command for declaring a variable type
-x = 4       # x is of type int
-y = "inbravo" # y is now of type str
+x = 4  # x is of type int
+y = "inbravo"  # y is now of type str
 print(x)
 print(y)
 
@@ -8,13 +8,13 @@ print(y)
 print(type(x))
 print(type(y))
 
-x = "inbravo" # x is now of type str
+x = "inbravo"  # x is now of type str
 print(x)
 
 # Type casting is available in Python
-x = str(3)    # x will be '3'
-y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0 
+x = str(3)  # x will be '3'
+y = int(3)  # y will be 3
+z = float(3)  # z will be 3.0
 
 print(x)
 print(y)
