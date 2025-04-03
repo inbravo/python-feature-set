@@ -30,31 +30,31 @@ class DataTypes:
     print(x)
 
     x = tuple(("apple", "banana", "cherry")) # a typle is always fixed length
-    print(x)
+    print("Tuple: ", x)
 
     x = range(6)
-    print(x)
+    print("Range: ", x)
 
     x = dict(name="John", age=36)
-    print(x)
+    print("Dictionary: ", x)
 
     x = set(("apple", "banana", "cherry"))
-    print(x)
+    print("Set: ", x)
 
     x = frozenset(("apple", "banana", "cherry"))
-    print(x)
+    print("Frozenset: ", x)
 
     x = bool(5)
-    print(x)
+    print("Boolean: ", x)
 
     x = bytes(5)
-    print(x)
+    print("Bytes: ", x)
 
     x = bytearray(5)
-    print(x)
+    print("Bytearray: ", x)
 
     x = memoryview(bytes(5))
-    print(x)
+    print("Memoryview of a byte: ", x)
 
     x = 1    # int
     y = 2.8  # float
