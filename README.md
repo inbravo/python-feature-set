@@ -8,3 +8,4 @@
 -  [Why intendation matters in Python](com/inbravo/core/IntendationTest.py)
 -  [Main function](com/inbravo/core/MainFunctionTest.py)
 -  [String handling](com/inbravo/core/StringHandling.py)
+-  [Handling Tuples](com/inbravo/core/TupleTest.py)
