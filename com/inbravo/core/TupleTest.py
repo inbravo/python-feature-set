@@ -1,4 +1,9 @@
+"""Module providing test of various Python features"""
+
+
 class TupleTest:
+    """ "Module providing a Python Tuple feature test."""
+
     # Tuple items are ordered, unchangeable, and allow duplicate values.
     # Tuple items are indexed, the first item has index [0], the second item has index [1]
 
@@ -94,9 +99,13 @@ class TupleTest:
     for x in fruits:
         print(x)
 
-    # Looping on a tuple
-    for i in range(len(fruits)):
-        print(fruits[i])
+    # Looping on a tuple: Enumerate the fruits
+    for fruit in enumerate(fruits):
+        print("bucket has ", fruit)
+
+    # Looping on a tuple: Enumerate the fruits at an index
+    for i, fruit in enumerate(fruits):
+        print("bucket has ", i, fruit)
 
     # Join two tuples
     tuple1 = ("a", "b", "c")
@@ -106,5 +115,5 @@ class TupleTest:
 
     # Multiply the tuple by double (2) or triple(3) etc.
     fruits = ("apple", "banana", "cherry")
-    mytuple = fruits * 2
+    mytuple = fruits * 4
     print(mytuple)

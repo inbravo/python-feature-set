@@ -1,6 +1,5 @@
 """Class to experiment the different data types in Python"""
 
-
 class DataTypes:
     # Text Type: 	str
     # Numeric Types: 	int, float, complex
