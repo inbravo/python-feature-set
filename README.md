@@ -10,3 +10,4 @@
 - [Main function](com/inbravo/core/MainFunctionTest.py)
 - [String handling](com/inbravo/core/StringHandling.py)
 - [Handling Tuples](com/inbravo/core/TupleTest.py)
+- [Handling Sets](com/inbravo/core/SetTest.py)
