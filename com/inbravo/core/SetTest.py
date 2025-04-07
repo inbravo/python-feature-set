@@ -51,5 +51,9 @@ def test_set_operations():
     my_set.clear()
     print("After Clearing the Set:", my_set)
 
-if __name__ == "__main__":
-    test_set_operations()
+    # Create another set with True and 1 together
+    # my_set = {True, 1, 2, 3, 4, 5}  # True and 1 is considered the same value and hence Set wont be able to add True
+
+    print("Set with Boolean and Integer:", my_set)
+    if __name__ == "__main__":
+        test_set_operations()
