@@ -14,4 +14,4 @@
 
 ## PySpark on DBX
 
--  [Calculate gross income of a super marker](com/inbravo/dbx/super-market/GrossIncome.ipynb)
+-  [Calculate gross income of a super marker](com/inbravo/dbx/super-market/Gross_Income.ipynb)
