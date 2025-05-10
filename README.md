@@ -11,3 +11,7 @@
 - [String handling](com/inbravo/core/StringHandling.py)
 - [Handling Tuples](com/inbravo/core/TupleTest.py)
 - [Handling Sets](com/inbravo/core/SetTest.py)
+
+## PySpark on DBX
+
+-  [Calculate gross income of a super marker](com/inbravo/dbx/super-market/GrossIncome.ipynb)
