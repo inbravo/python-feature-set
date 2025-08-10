@@ -12,6 +12,9 @@
 - [Handling Tuples](com/inbravo/core/TupleTest.py)
 - [Handling Sets](com/inbravo/core/SetTest.py)
 
+## System
+- [Operating system information][com/inbravo/system/OSInfo.py]
+
 ## PySpark
 
 -  [Calculate gross income of a super marker](com/inbravo/dbx/super-market/Gross_Income.ipynb)
