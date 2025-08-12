@@ -1,0 +1,19 @@
+[Python Feature Set]
+name = "pfs"
+version = "0.0.1"
+authors = [
+    { name="Amit Dixit", email="inbravo@outlook.com" },
+]
+description = "A package for Python Feature Set Examples"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/inbravo/python-feature-set"
+Issues = "https://github.com/inbravo/python-feature-set/issues"
