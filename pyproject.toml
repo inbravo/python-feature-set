@@ -1,5 +1,5 @@
-[Python Feature Set]
-name = "pfs"
+[project]
+name = "pyfs"
 version = "0.0.1"
 authors = [
     { name="Amit Dixit", email="inbravo@outlook.com" },

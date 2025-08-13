@@ -77,3 +77,12 @@ To publish the package to PyPI, use twine
 pip install twine
 twine upload dist/*
 ```
+
+### VENV (Optional):
+
+```
+Step 1: Install Python: brew install python@3.11
+Step 2: Install PIP: pip3.11 install uv
+Step 3: Create VENV in the downloaded codebase : uv venv --python=python3.11
+Step 4: Active VENV: source .venv/bin/activate
+```
