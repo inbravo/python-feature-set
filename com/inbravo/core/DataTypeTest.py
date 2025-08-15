@@ -1,4 +1,7 @@
-"""Class to experiment the different data types in Python"""
+"""
+Class to experiment with the different data types in Python.
+This class demonstrates the usage and conversion of various Python data types.
+"""
 
 class DataTypes:
     # Text Type: 	str

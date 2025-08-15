@@ -1,4 +1,4 @@
-# Python language feature set
+# Python Language Feature Set
 
 ## Basic features
 
@@ -9,7 +9,7 @@
 - [Why intendation matters in Python](com/inbravo/core/IntendationTest.py)
 - [Main function](com/inbravo/core/MainFunctionTest.py)
 
-## Data Structures
+## Data structures
 
 - [Tuples](com/inbravo/core/TupleTest.py)
 - [Sets](com/inbravo/core/SetTest.py)
@@ -18,20 +18,26 @@
 
 - [Formatted Strings](com/inbravo/string/FString.py)
 
+## Regular expressions
+
+- [Regular expressions based string splitting](com/inbravo/regexp/RegExpUtils.py)
+
 ## System
 
 - [Operating system information](com/inbravo/system/OSInfo.py)
-- [Find the library version in enviornment](com/inbravo/system/LibVersion.py)
+- [Find the library version in environment](com/inbravo/system/LibVersion.py)
 
 ## PySpark
 
 - [Calculate gross income of a super marker](com/inbravo/dbx/super-market/Gross_Income.ipynb)
 
-### VENV (Optional):
+## VENV (Optional)
 
-```
-Step 1: Install Python: brew install python@3.11
-Step 2: Install PIP: pip3.11 install uv
-Step 3: Create VENV in the downloaded codebase : uv venv --python=python3.11
-Step 4: Active VENV: source .venv/bin/activate
-```
+1. Install Python: `brew install python@3.11`
+2. Install PIP: `pip3.11 install uv`
+3. Create VENV in the downloaded codebase: `python3.11 -m venv .venv`
+4. Activate VENV: `source .venv/bin/activate`
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
