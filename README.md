@@ -20,12 +20,16 @@
 
 ## Regular expressions
 
-- [Regular expressions based string splitting](com/inbravo/regexp/RegExpUtils.py)
+- [Regular expressions based string splitting](com/inbravo/regexp/Reg_Exp_Utils.py)
 
 ## System
 
 - [Operating system information](com/inbravo/system/OSInfo.py)
 - [Find the library version in environment](com/inbravo/system/LibVersion.py)
+
+## Matlib
+
+- [Create a two dimentional graph](com/inbravo/matplot/Graph_Test.py)
 
 ## PySpark
 
@@ -36,7 +40,8 @@
 1. Install Python: `brew install python@3.11`
 2. Install PIP: `pip3.11 install uv`
 3. Create VENV in the downloaded codebase: `python3.11 -m venv .venv`
-4. Activate VENV: `source .venv/bin/activate`
+4. uv pip install -r requirements.txt
+5. Activate VENV: `source .venv/bin/activate`
 
 ## License
 

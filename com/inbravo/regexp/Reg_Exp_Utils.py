@@ -7,7 +7,7 @@ It includes methods to split strings based on whitespace, commas, periods, and p
 import re
 
 
-class RegExpUtils:
+class Reg_Exp_Utils:
     """Class to provide utility functions for applying Regular Expressions"""
 
     @staticmethod
@@ -35,7 +35,7 @@ class RegExpUtils:
 
 if __name__ == "__main__":
     # Example usage
-    print(RegExpUtils.split_on_whitespace("Hello, world. This, is a test."))
-    print(RegExpUtils.split_on_comma_whitespace("Hello, world. This, is a test."))
-    print(RegExpUtils.split_on_comma_period_whitespace("Hello, world. This, is a test."))
-    print(RegExpUtils.split_on_punctuations("Hello, world. Is this-- a test?"))
+    print(Reg_Exp_Utils.split_on_whitespace("Hello, world. This, is a test."))
+    print(Reg_Exp_Utils.split_on_comma_whitespace("Hello, world. This, is a test."))
+    print(Reg_Exp_Utils.split_on_comma_period_whitespace("Hello, world. This, is a test."))
+    print(Reg_Exp_Utils.split_on_punctuations("Hello, world. Is this-- a test?"))
