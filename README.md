@@ -1,47 +1,53 @@
 # Python Language Feature Set
 
-## Basic features
+## Basic Features
 
-- [Hello world](com/inbravo/core/HelloWorld.py)
-- [Hello world using Jupitor Notebook](com/inbravo/core/HelloWorld.ipynb)
-- [Data types](com/inbravo/core/DataTypeTest.py)
-- [Variable types](com/inbravo/core/VariableTest.py)
-- [Why intendation matters in Python](com/inbravo/core/IntendationTest.py)
-- [Main function](com/inbravo/core/MainFunctionTest.py)
+- [Hello World](com/inbravo/core/HelloWorld.py)
+- [Hello World using Jupyter Notebook](com/inbravo/core/HelloWorld.ipynb)
+- [Data Types](com/inbravo/core/DataTypeTest.py)
+- [Variable Types](com/inbravo/core/VariableTest.py)
+- [Why Indentation Matters in Python](com/inbravo/core/IntendationTest.py)
+- [Main Function](com/inbravo/core/MainFunctionTest.py)
 
-## Data structures
+## File Operations
+
+- [SHUtils Examples ("shell utilities", sh standing for Shell)](com/inbravo/file/SHUtil_Test.py)
+- [Get File Metadata](com/inbravo/file/File_Meta_Data.py)
+- [Get Count of Files in a Folder](com/inbravo/file/File_Count.py)
+
+## Data Structures
 
 - [Tuples](com/inbravo/core/TupleTest.py)
 - [Sets](com/inbravo/core/SetTest.py)
 
-## String handling
+## String Handling
 
 - [Formatted Strings](com/inbravo/string/FString.py)
 
-## Regular expressions
+## Regular Expressions
 
-- [Regular expressions based string splitting](com/inbravo/regexp/Reg_Exp_Utils.py)
+- [Regular Expressions Based String Splitting](com/inbravo/regexp/Reg_Exp_Utils.py)
 
 ## System
 
-- [Operating system information](com/inbravo/system/OSInfo.py)
-- [Find the library version in environment](com/inbravo/system/LibVersion.py)
+- [Operating System Information](com/inbravo/system/OSInfo.py)
+- [Find the Library Version in Environment](com/inbravo/system/LibVersion.py)
 
-## Matlib
+## Matplotlib
 
-- [Create a two dimentional graph](com/inbravo/matplot/Graph_Test.py)
+- [Create a Two-Dimensional Graph](com/inbravo/matplot/Graph_Test.py)
 
 ## PySpark
 
-- [Calculate gross income of a super marker](com/inbravo/dbx/super-market/Gross_Income.ipynb)
+- [Calculate Gross Income of a Supermarket](com/inbravo/dbx/super-market/Gross_Income.ipynb)
 
-## VENV (Optional)
+## Virtual Environment (VENV) (Optional)
 
 1. Install Python: `brew install python@3.11`
 2. Install PIP: `pip3.11 install uv`
-3. Create VENV in the downloaded codebase: `python3.11 -m venv .venv`
-4. uv pip install -r requirements.txt
-5. Activate VENV: `source .venv/bin/activate`
+3. Create a virtual environment in the downloaded codebase: `python3.11 -m venv .venv`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Activate the virtual environment: `source .venv/bin/activate`
 
 ## License
 
