@@ -7,3 +7,4 @@ tensorflow >= 2.18.0       # com.inbravo.llm
 tqdm >= 4.66.1             # com.inbravo.llm
 numpy >= 1.26, < 2.1       # dependency of several other libraries like torch and pandas
 psutil >= 5.9.5            # com.inbravo.llm; as dependency of torch
+beautifulsoup4 >= 4.14.1   # com.inbravo.html

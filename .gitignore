@@ -2,3 +2,7 @@ com/inbravo/__pycache__/__init__.cpython-313.pyc
 .DS_Store
 com/inbravo/dbx/super-market/.ipynb_checkpoints
 *.lock
+/com/inbravo/llm
+*.pyc
+/com/inbravo/llm
+*.pyc

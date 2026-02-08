@@ -1,5 +1,10 @@
 # Python Language Feature Set
 
+## File Structure
+- [Class](com/inbravo/struct/book.py)
+- [Module](com/inbravo/struct/library_utils.py)
+- [Script](com/inbravo/struct/main_app.py)
+
 ## Basic Features
 
 - [Hello World](com/inbravo/core/HelloWorld.py)
@@ -49,6 +54,11 @@
 3. Create a virtual environment in the downloaded codebase: `python3.11 -m venv .venv`
 4. Install dependencies: `pip install -r requirements.txt`
 5. Activate the virtual environment: `source .venv/bin/activate`
+
+## Run Ollama (Optional)
+
+1. To run the 8b LLM: `ollama run llama3:8b`
+2. To stop: `/bye`
 
 ## License
 

@@ -21,7 +21,7 @@ class DataTypes:
 
     # 
     x = int(x)      # x will be 1
-    y = int(y)      # y will be 2ß
+    y = int(y)      # y will be 2
     z = int(z)      # z will be 3
 
     print(x)
