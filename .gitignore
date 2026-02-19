@@ -8,3 +8,4 @@ com/inbravo/dbx/super-market/.ipynb_checkpoints
 *.pyc
 /com/inbravo/llm
 com/inbravo/.DS_Store
+/.venv
