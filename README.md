@@ -1,11 +1,5 @@
 # Python Language Feature Set
 
-## File Struct
-
-- [Class](com/inbravo/struct/book.py)
-- [Module](com/inbravo/struct/library_utils.py)
-- [Script](com/inbravo/struct/main_app.py)
-
 ## Python Script/Class/Module
 - [Class](com/inbravo/struct/book.py) | [Module](com/inbravo/struct/library_utils.py) | [Script](com/inbravo/struct/main_app.py)
 
