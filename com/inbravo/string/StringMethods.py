@@ -1,11 +1,20 @@
 """
-Day 1 — String Methods
+tring Methods
 Goal: get comfortable with the most common string operations in Python.
 Run this file, read the output, then try the exercises at the bottom.
 """
-
-
+# String methods are functions that operate on string objects. They allow you to manipulate and analyze strings in various ways, such as splitting, joining, changing case, finding substrings, and more. Here are some of the most common string methods in Python:
+# 1. split() — splits a string into a list of substrings based on a specified separator (default is any whitespace).
+# 2. join() — takes a list of strings and concatenates them into a single string, using the string it is called on as the separator.
+# 3. strip() — removes leading and trailing whitespace (or specified characters) from a string.
+# 4. replace() — replaces occurrences of a specified substring with another substring.
+# 5. upper(), lower(), title(), swapcase() — change the case of letters in a string.
+# 6. find(), index() — search for a substring and return its index (or -1 if not found).
+# 7. in — a keyword to check if a substring exists within another string.
+# These methods are essential for cleaning, formatting, and analyzing text data in Python. They can be combined in various ways to achieve complex string manipulations.
+# Note: all string methods return a new string and do not modify the original string (strings are immutable in Python).
 def demonstrate_split():
+    print("\n=== method invoked:" +__name__ + "===")
     sentence = "  Python is simple, slow, and effective  "
 
     # split on a character — returns a list
@@ -19,6 +28,7 @@ def demonstrate_split():
 
 
 def demonstrate_join():
+    print("\n=== method invoked:" +__name__ + "===")
     words = ["Python", "is", "easy"]
 
     # join takes a list and glues it with the separator string
@@ -31,12 +41,14 @@ def demonstrate_join():
     print(result_dash)    # Python-is-easy
     print(result_none)    # Pythoniseasy
 
-
 def demonstrate_strip():
+    print("\n=== method invoked:" +__name__ + "===")
     messy = "   hello world   "
     tab_messy = "\t\nsome text\n\t"
 
     print("\n=== strip / lstrip / rstrip ===")
+    # 'repr' is part of 'object' (the most fundamental base class from which all other classes are derived)
+    # it returns a string that represents the object, often with quotes and escape characters, which is useful for debugging and showing the exact content of a string (including whitespace).
     print(repr(messy.strip()))    # 'hello world'
     print(repr(messy.lstrip()))   # 'hello world   '  (left only)
     print(repr(messy.rstrip()))   # '   hello world'  (right only)
@@ -44,6 +56,7 @@ def demonstrate_strip():
 
 
 def demonstrate_replace():
+    print("\n=== method invoked:" +__name__ + "===")
     text = "I like cats. Cats are great. cats cats cats."
 
     # replace is case-sensitive
@@ -54,6 +67,7 @@ def demonstrate_replace():
 
 
 def demonstrate_case():
+    print("\n=== method invoked:" +__name__ + "===")
     word = "hello WORLD"
 
     print("\n=== case methods ===")
@@ -69,6 +83,7 @@ def demonstrate_case():
 
 
 def demonstrate_find_and_in():
+    print("\n=== method invoked:" +__name__ + "===")
     sentence = "The quick brown fox jumps over the lazy dog"
 
     print("\n=== find / in / startswith / endswith ===")
@@ -86,6 +101,7 @@ def demonstrate_find_and_in():
 
 
 def demonstrate_practical():
+    print("\n=== method invoked:" +__name__ + "===")
     """Combine several methods to clean and process a real-world-ish string."""
     raw = "  Alice , 30 , Software Engineer  "
 
@@ -97,7 +113,7 @@ def demonstrate_practical():
     print("\n=== practical example ===")
     print(summary)
 
-
+# “__name__” is a special variable and it will automatically set its value to “__main__” if the script is being run directly
 if __name__ == "__main__":
     demonstrate_split()
     demonstrate_join()

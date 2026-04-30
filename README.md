@@ -30,6 +30,7 @@
 ## String Handling
 
 - [Formatted Strings](com/inbravo/string/FString.py)
+- [String methods (split, join, strip, replace, upper, find, in etc.)](com/inbravo/string/StringMethods.py)
 
 ## Regular Expressions
 
