@@ -1,5 +1,5 @@
 """
-tring Methods
+String Methods
 Goal: get comfortable with the most common string operations in Python.
 Run this file, read the output, then try the exercises at the bottom.
 """
@@ -127,11 +127,15 @@ if __name__ == "__main__":
     # EXERCISES — write your answers below each comment, then run the file
     # ------------------------------------------------------------------
 
-    # 1. Take the string "  learn python every day  " and print it
-    #    with no leading/trailing spaces and every word capitalised.
+    # 1. Take the string "  learn python every day  " and print it with no leading/trailing spaces and every word capitalised.
+    print(repr("  learn python every day  ".strip()))    # 'learn python every day'
 
-    # 2. Given csv = "delhi,mumbai,bangalore,chennai", split it into a list,
-    #    sort it alphabetically, then join it back with " | " as the separator.
+    # 2. Given csv = "delhi,mumbai,bangalore,chennai", split it into a list, sort it alphabetically, then join it back with " | " as the separator.
+    csv = "delhi,mumbai,bangalore,chennai" 
+    cities = csv.split(",")  # ['delhi', 'mumbai', 'bangalore', 'chennai']
+    cities.sort()            # ['bangalore', 'chennai', 'delhi', 'mumbai']
+    result = " | ".join(cities)  # 'bangalore | chennai | delhi | mumbai'
+    print(result)
 
     # 3. Count how many times the letter "a" (case-insensitive) appears in:
     #    text = "A data analyst analyses data daily"
